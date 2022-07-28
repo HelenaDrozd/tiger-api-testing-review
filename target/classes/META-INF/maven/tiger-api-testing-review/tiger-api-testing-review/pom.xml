@@ -1,10 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>tiger-api-testing-review</groupId>
-  <artifactId>tiger-api-testing-review</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>tiger-api-testing-review</name>
-  <description>API Testing Review Project</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tiger-api-testing-review</groupId>
+	<artifactId>tiger-api-testing-review</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>tiger-api-testing-review</name>
+	<description>API Testing Review Project</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -12,15 +14,13 @@
 		<maven.compiler.version>3.8.1</maven.compiler.version>
 		<maven.surefire.version>2.22.2</maven.surefire.version>
 	</properties>
-	<dependencies>
-		<!-- This is dependecy for Karate Framework -->
+	<dependencies>        <!-- This is dependecy for Karate Framework -->
 		<dependency>
 			<groupId>com.intuit.karate</groupId>
 			<artifactId>karate-junit5</artifactId>
 			<version>1.2.0</version>
 			<scope>test</scope>
-		</dependency>
-		<!-- Faker Java is a library to for FAKE data -->
+		</dependency>        <!-- Faker Java is a library to for FAKE data -->
 		<dependency>
 			<groupId>com.github.javafaker</groupId>
 			<artifactId>javafaker</artifactId>
